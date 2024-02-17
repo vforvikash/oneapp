@@ -1,0 +1,10 @@
+/* The following block can be included in a custom.scss */
+@import './variables';
+
+/* make the customizations */
+$theme-colors: (
+  'info': tomato,
+  'danger': teal
+);
+
+

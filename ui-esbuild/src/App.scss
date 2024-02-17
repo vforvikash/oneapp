@@ -1,0 +1,27 @@
+/* The following line can be included in a src/App.scss */
+@import '~bootstrap/scss/bootstrap';
+@import './styles/custom';
+@import './styles/variables';
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.Footer {
+    min-height: 50px;
+    //background: $mediumTextColor;
+}
+
+.MainBody {
+    margin-right: 10px;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.Header {
+    min-height: 100px;
+    margin-bottom: 10px;
+}
